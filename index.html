@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hábitos Fantásticos</title>
     <link rel="stylesheet" href="style.css">
-    <script src="funcionalidades.js"></script>
+    
 </head>
 
 <body>
@@ -14,10 +14,19 @@
 
         <div class="todo-app">
             <h2>Lista de afazeres<img src="icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Adicione uma nova tarefa">
+                <button id="add-task-btn">Adicionar</button>
+            </div><!--botao e imput de afazeres-->
+            <ul id="task-list">
+            <!--<li class="checked">Tarefa 1</li>
+                <li>Tarefa 2</li>
+                <li>Tarefa 3</li>-->
+            </ul> <!--As tarefas serão adicionadas aqui -->
         </div><!--caixa todo-->
 
     </div><!--container do site-->
-
+<script src="funcionalidades.js"></script>
 </body>
 
 </html>
