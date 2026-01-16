@@ -165,3 +165,40 @@ flex-direction: column;
     color: #a71414;
     text-align: center;
 }
+
+
+@media (max-width: 768px) {
+
+  .container {
+    padding: 5%;
+  }
+
+  .todo-app {
+    margin: 40px auto 20px;
+    padding: 10px;
+  }
+
+  /* Botões de foco */
+  #btns {
+    flex-direction: column;   /* um embaixo do outro */
+    align-items: center;
+  }
+
+  .opcao {
+    width: 100%;              /* ocupa a largura */
+    max-width: 100%;
+  }
+
+  .opcao button {
+    width: 100%;              /* botão grande no dedo */
+  }
+
+  .titulo {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #recomendacao h2 {
+    font-size: 16px;
+  }
+}
