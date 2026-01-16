@@ -1,6 +1,20 @@
 const inputBox = document.getElementById('input-box');
 const addTaskBtn = document.getElementById('add-task-btn');
 const taskList = document.getElementById('task-list');
+const botoes = document.querySelectorAll('#btn-foco button');
+
+
+
+    botoes.forEach(botao => {
+        botao.addEventListener('click', () => {
+          const tipo = botao.dataset.tipo;
+          const span = document.getElementById(tipo);
+
+          let valor = Number(span.innerText);
+          span.innerText = valor + 1;
+        });
+      });
+            
 
 
 function addTask() {

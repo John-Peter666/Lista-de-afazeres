@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hábitos Fantásticos</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
@@ -19,14 +19,58 @@
                 <button id="add-task-btn">Adicionar</button>
             </div><!--botao e imput de afazeres-->
             <ul id="task-list">
-            <!--<li class="checked">Tarefa 1</li>
+                <!--<li class="checked">Tarefa 1</li>
                 <li>Tarefa 2</li>
                 <li>Tarefa 3</li>-->
             </ul> <!--As tarefas serão adicionadas aqui -->
         </div><!--caixa todo-->
 
+
+
+
+
+        <div id="btn-foco">
+
+            <div id="btn-titulo">
+                <H2 class="titulo">Como você passou as últimas horas?</H2> <br>
+
+            </div>
+
+            <div id="btns">
+                <div class="opcao">
+                    <button data-tipo="focado"> Focado(a) </button>
+                    <p>contagem:<span id="focado"> </span></p>
+
+
+
+                </div>
+
+                <div class="opcao">
+
+                    <button data-tipo="descansando"> Descansando </button>
+                    <p>contagem:<span id="descansando"> </span></p>
+                </div>
+
+                <div class="opcao">
+
+                    <button data-tipo="distraido"> Distraído(a) </button>
+                    <p>contagem:<span id="distraido"> </span></p>
+                </div>
+
+
+                
+            </div>
+
+        </div>
+
+
+        <div id="recomendacao">
+                    <H2 class="titulo">Recomendado: <br> Reinicie a página a cada novo dia após refletir no equilíbrio
+                        entre o seu tempo de foco, descanso e distração</H2>
+                </div>
+
     </div><!--container do site-->
-<script src="funcionalidades.js"></script>
+    <script src="funcionalidades.js"></script>
 </body>
 
 </html>
